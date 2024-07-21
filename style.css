@@ -1,0 +1,153 @@
+/* Import Font Awesome icons */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #f0f0f0;
+}
+
+
+/*logo style*/
+
+.logo-container {
+    max-width: 300px;
+    margin-right: 20px;
+    text-align: left; 
+}
+
+.logo-container img {
+    max-width: 100%;
+    height: auto;
+    display: block; 
+    margin: 0 auto; 
+}
+
+/*footer*/
+
+footer {
+    display: flex;
+    background-color: black;
+    padding: 20px;
+    justify-content: space-between;
+    color: #fff;
+    flex-wrap: wrap;
+  }
+  
+  /*class links for quick links*/
+  .links a {
+    text-decoration: none;
+    color: #FFFEFF;
+  }
+  
+  /*link text*/
+  .non-blue-link {
+    color: #FFFEFF;
+    text-decoration: none;
+    font-style: italic;
+  }
+  
+  /*class for contact and i for icons*/
+  .contact i {
+    color: #F9C501; 
+    padding-right:15px;
+  }
+
+/*class quick link for heading*/
+  .quick-link h2 {
+    margin: 0 2% 0 0;
+    text-align: justify;
+  }
+
+/*class contact us and quicklinks*/
+  .contact,
+  .quick-link {
+    flex: 1;
+    margin: 0 60px;
+    margin-left:10%;
+  }
+
+  
+  
+/*class contact and quick link for heading*/
+  .contact h2,
+  .quick-link h2 {
+    margin-top: 20px;
+    color: #FFFEFF;
+    font-size: 23px;
+    font-weight: 780;
+  }
+  
+  
+/*unodered list for each class*/
+  .contact ul,
+  .quick-link ul,
+  .socmed-icons ul {
+    list-style-type: none;
+    padding: 10px 0;
+    font-size: 20px;
+  }
+  
+  .contact ul li,
+  .quick-link ul li {
+    margin-bottom: 10px;
+    margin-top: 20px;
+
+  }
+
+
+/*Social media icons style*/
+
+.socmed-icons {
+margin-top: 140px;
+  text-align: center;
+  padding: 0;
+  margin-right: 5%;
+}
+
+.socmed-icons li {
+  display: inline-block;
+  text-align: center;
+  padding: 20px;
+}
+
+.socmed-icons li i {
+    padding-left: 50px; 
+
+  }
+.socmed-icons i {
+  color:  #F9C501;
+  font-size: 30px;
+}
+
+
+a:hover {
+  color: #F9C501;
+}
+
+.socmed-icons i:hover {
+  color: #FFFEFF;
+}
+
+/*  style for copyright */
+
+.copyright-bottom {
+  background: #F9C501;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 0;
+  width: 100%;
+}
+
+.copyright-bottom p {
+  color: 1E1E1E;
+  margin: 0;
+  font-size: 16px;
+  padding: 7px;
+  font-weight: 5o0;
+}
